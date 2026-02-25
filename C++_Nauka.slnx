@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="C++_Nauka/C++_Nauka.vcxproj" />
+  <Project Path="C++_Nauka/C++_Nauka.vcxproj" Id="a7df6661-88bd-464a-a7d5-d0e91c780a5a" />
 </Solution>
