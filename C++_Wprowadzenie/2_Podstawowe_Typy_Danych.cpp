@@ -9,6 +9,9 @@ int main() {
    int x = 3;      // liczba calkowita
    float y = 3.5;  // liczba zmiennoprzecinkowa
    char z = 'A';   // znak [jeden]
+   
+   bool t = true;
+   bool f = false;
 
    std::cout << x ;
    std::cout << x + 3;
