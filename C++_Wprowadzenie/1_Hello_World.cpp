@@ -1,4 +1,6 @@
-#include <iostream>   // Makro - definiowane na poczatku kodu. Mozna deklarowac tutaj paczki kodu, funkcje, wartosci oraz wiecej.
+// Opis prostego kodu w C++
+
+#include <iostream>   // Dyrektywa preprocesora: dolacza naglowek z deklaracjami strumieni (std::cout, std::cin itd.) w przestrzeni nazw std.
 
 // Sercem kodu w C++ jest zawartosc funkcji main(). To co sie w niej znajdzie zostanie wykonane. 
 int main() {
