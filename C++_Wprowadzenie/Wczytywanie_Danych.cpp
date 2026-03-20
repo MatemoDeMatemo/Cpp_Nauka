@@ -7,7 +7,7 @@
 int main()
 {          
     // 1] Wczytywanie plikow tekstowych
-    std::ifstream plik_txt("C:/Users/Mateusz Draga/Desktop/plik.txt"); // podaj sciezke
+    std::ifstream plik_txt("C:/.../Desktop/plik.txt"); // podaj sciezke
     
     // Sprawdz czy plik sie otworzyl
     if (!plik_txt.is_open()) {
@@ -28,7 +28,7 @@ int main()
 
 
     // 2] Wczytywanie plikow csv
-    std::ifstream plik_csv("C:/Users/Mateusz Draga/Desktop/plik.csv");
+    std::ifstream plik_csv("C:/.../Desktop/plik.csv");
 
     // Sprawdz czy plik sie otworzyl
     if (!plik_csv.is_open()) {
