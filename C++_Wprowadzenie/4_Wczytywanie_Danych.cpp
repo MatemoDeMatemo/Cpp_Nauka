@@ -2,6 +2,8 @@
 #include <fstream>
 #include <string>
 
+// std::ifstream (input file stream) - do czytania danych z pliku
+// std::ofstream (output file stream) - do zapisywania do pliku
 
 
 int main()
@@ -48,6 +50,46 @@ int main()
 
     std::cout << kolumna1[1] << std::endl;
     std::cout << kolumna1 << std::endl;
+
+    // ========================================================= Zapisywanie plikow ================================================================
+    
+    // 3] Zapisywanie do pliku tekstowego (.txt)
+    std::ofstream zapis_txt("C:/.../Desktop/nowy_plik.txt"); // tworzymy / nadpisujemy plik
+
+    // Sprawdz czy plik sie otworzyl
+    if (!zapis_txt.is_open())
+    {
+        std::cerr << "Nie można zapisać pliku!" << std::endl;
+        return 1;
+    }
+
+    // Zapisywanie danych
+    zapis_txt << "Pierwsza linia tekstu" << std::endl;
+    zapis_txt << "Druga linia tekstu" << std::endl;
+
+    zapis_txt.close(); // zamykamy plik
+
+
+
+    // =========================================================
+    // 4] Zapisywanie do pliku csv (.csv)
+    std::ofstream zapis_csv("C:/.../Desktop/nowy_plik.csv");
+
+    // Sprawdz czy plik sie otworzyl
+    if (!zapis_csv.is_open())
+    {
+        std::cerr << "Nie można zapisać pliku!" << std::endl;
+        return 1;
+    }
+
+    // Zapisywanie danych (wartosci oddzielone przecinkiem!)
+    zapis_csv << "Imie,Nazwisko,Wiek" << std::endl; // naglowek
+
+    zapis_csv << "Jan,Kowalski,25" << std::endl;
+    zapis_csv << "Anna,Nowak,30" << std::endl;
+
+    zapis_csv.close(); // zamykamy plik
+
 
     return 0;
 }
