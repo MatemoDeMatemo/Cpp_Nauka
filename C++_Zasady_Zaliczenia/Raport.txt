@@ -3,6 +3,7 @@
 Ćwiczenia zaliczane są na podstawie zdania raportu z wykonanego na ćwiczeniach projektu.
 Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać krótki fragment kodu DNA i zwracać listę aminokwasów przez niego kodowanych od sekwencji "START" do "STOP".
 
+
 #### Ocena dostateczna - 3
 Wymagania:
 
@@ -18,11 +19,13 @@ Do tego:
 - Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych, funkcji i klas wykorzystywanych w projekcie
 - Do tłumaczenia ciągu neuklotydów wykorzystuje się klasę, posiadającą funkcję zwrotu odpowiadającego aminokwasu
 
+
 #### Ocena dobra - 4
 To co na ocenę dostateczną a dodatkowo:
 
 - Kod nie kończy swojej pracy na pierwszej sekwencji STOP, lecz po jej zaistnieniu szuka wszystkich kolejnych ukrytych sekwencji START i STOP i kodowanych między nimi aminokwasów. 
 - Kod po zakończeniu analizy sekwencji zwraca informację na temat ilości i długości sekwencji aminokwasów oraz podaje infrmacje o częstości wystąpienia każdego z aminokwasów. 
+
 
 #### Ocena bardzo dobra - 5
 To co na ocenę dostateczną a dodatkowo:
@@ -33,4 +36,4 @@ To co na ocenę dostateczną a dodatkowo:
 
 
 #### W celu uzyskania pełnej oceny za swój raport, musi on być wysłany do 17 czerwca 2026. Opóźnienie skutkuje obniżką oceny o pełen stopień. 
-#### Istnienie błędów 
+#### Istnienie błędów i/lub elementów dodatkowych może skutkowac podniesieniem lub obniżeniem oceny o pół stopnia. 
