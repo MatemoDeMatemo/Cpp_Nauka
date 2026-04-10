@@ -13,6 +13,7 @@ Wymagania:
 - Projekt po zatrzymaniu podaje całą listę wykrytych aminokwasów
 
 Do tego:
+- Student rozumie swój własny kod i jest w stanie go przedstawić prowadzącemu.
 - Projekt znajduje się na Githubie studenta
 - Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych, funkcji i klas wykorzystywanych w projekcie
 - Do tłumaczenia ciągu neuklotydów wykorzystuje się klasę, posiadającą funkcję zwrotu odpowiadającego aminokwasu
@@ -29,3 +30,7 @@ To co na ocenę dostateczną a dodatkowo:
 - Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku csv
 - Kod jest odporny na pojedyńcze insercje lub delecje, sprawiające, że sekwencja nie zawiera już nukleotydów podzielnych przez liczbę 3. 
 - W przypadku takiej insercji/delecji informuje o problemie i proponuje oryginalny wygląd sekwencji.
+
+
+#### W celu uzyskania pełnej oceny za swój raport, musi on być wysłany do 17 czerwca 2026. Opóźnienie skutkuje obniżką oceny o pełen stopień. 
+#### Istnienie błędów 
