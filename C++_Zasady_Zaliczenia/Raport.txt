@@ -1,0 +1,31 @@
+#### Zasady zaliczenia ćwiczeń ####
+
+Ćwiczenia zaliczane są na podstawie zdania raportu z wykonanego na ćwiczeniach projektu.
+Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać krótki fragment kodu DNA i zwracać listę aminokwasów przez niego kodowanych od sekwencji "START" do "STOP".
+
+#### Ocena dostateczna - 3
+Wymagania:
+
+- Kod poprawnie wczytuje sekwencje nukleotydów z zaprezentowanego pliku csv
+- Kod rozpoznaje sekwencje START
+- Kod poprawnie zamienia sekwencje nukleotydów między miejscem START a STOP na odpowiednie aminokwasy
+- Analiza sekwencji kończy się na sekwencji STOP
+- Projekt po zatrzymaniu podaje całą listę wykrytych aminokwasów
+
+Do tego:
+- Projekt znajduje się na Githubie studenta
+- Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych, funkcji i klas wykorzystywanych w projekcie
+- Do tłumaczenia ciągu neuklotydów wykorzystuje się klasę, posiadającą funkcję zwrotu odpowiadającego aminokwasu
+
+#### Ocena dobra - 4
+To co na ocenę dostateczną a dodatkowo:
+
+- Kod nie kończy swojej pracy na pierwszej sekwencji STOP, lecz po jej zaistnieniu szuka wszystkich kolejnych ukrytych sekwencji START i STOP i kodowanych między nimi aminokwasów. 
+- Kod po zakończeniu analizy sekwencji zwraca informację na temat ilości i długości sekwencji aminokwasów oraz podaje infrmacje o częstości wystąpienia każdego z aminokwasów. 
+
+#### Ocena bardzo dobra - 5
+To co na ocenę dostateczną a dodatkowo:
+
+- Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku csv
+- Kod jest odporny na pojedyńcze insercje lub delecje, sprawiające, że sekwencja nie zawiera już nukleotydów podzielnych przez liczbę 3. 
+- W przypadku takiej insercji/delecji informuje o problemie i proponuje oryginalny wygląd sekwencji.
