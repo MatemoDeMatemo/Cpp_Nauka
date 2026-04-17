@@ -6,7 +6,6 @@
 int silnia(int x)
 {   
     int wynik = 1;
-    int s = 1;
 
     for(int s = 1; s < x +1; s++){ 
         wynik = wynik * s;
