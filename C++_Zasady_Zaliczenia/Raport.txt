@@ -9,7 +9,7 @@ Kod będzie testowany na ostatnich zajęciach na dostarczonej przez prowadząceg
 #### Ocena dostateczna - 3
 Wymagania:
 
-- Kod poprawnie wczytuje sekwencje nukleotydów z zaprezentowanego pliku csv.
+- Kod poprawnie wczytuje sekwencje nukleotydów z zaprezentowanego pliku txt.
 - Kod zamienia DNA na mRNA.
 - Kod rozpoznaje sekwencje START.
 - Kod poprawnie zamienia sekwencje nukleotydów między miejscem START a STOP na odpowiednie aminokwasy.
@@ -37,7 +37,7 @@ To co na ocenę dobrą a dodatkowo:
 - Kod wykrywa pierwsze pojawienie sekwencji START w dowolnym pożądku odczytu i zaczyna dalsze pracę od tego odcinka. np. UAA UGC CAC AUG UAG kod zacznie od 3 nukleotydu nie 10.
 - Kod w dużym stopniu korzysta z poprawnie zaimplementowanych wskaźników.
 - Kod wykorzystuje klasę do zamiany kodonów na aminokwasy.
-- Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku csv.
+- Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku txt.
 
 
 #### W celu uzyskania pełnej oceny za swój raport, musi on być wysłany do 17 czerwca 2026. Opóźnienie skutkuje obniżką oceny o pół stopnia za każdy tydzień opóźnienia. 
