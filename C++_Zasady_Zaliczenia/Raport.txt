@@ -1,39 +1,46 @@
 #### Zasady zaliczenia ćwiczeń ####
 
 Ćwiczenia zaliczane są na podstawie zdania raportu z wykonanego na ćwiczeniach projektu.
-Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać krótki fragment kodu DNA i zwracać listę aminokwasów przez niego kodowanych od sekwencji "START" do "STOP".
+Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać krótki fragment kodu DNA, zamieniać go na mRNA i zwracać listę aminokwasów przez niego kodowanych od sekwencji "START" do "STOP".
 
+Projekt powinien zawierać imię i nazwisko studenta, datę zdania projektu, link do githuba projektu oraz zdjęcie wyniku dla przykładowej sekwencji DNA. 
+Kod będzie testowany na ostatnich zajęciach na dostarczonej przez prowadzącego sekwencji DNA długiej na kilka tysięcy nukleotydów. 
 
 #### Ocena dostateczna - 3
 Wymagania:
 
-- Kod poprawnie wczytuje sekwencje nukleotydów z zaprezentowanego pliku csv
-- Kod rozpoznaje sekwencje START
-- Kod poprawnie zamienia sekwencje nukleotydów między miejscem START a STOP na odpowiednie aminokwasy
-- Analiza sekwencji kończy się na sekwencji STOP
-- Projekt po zatrzymaniu podaje całą listę wykrytych aminokwasów
+- Kod poprawnie wczytuje sekwencje nukleotydów z zaprezentowanego pliku csv.
+- Kod zamienia DNA na mRNA.
+- Kod rozpoznaje sekwencje START.
+- Kod poprawnie zamienia sekwencje nukleotydów między miejscem START a STOP na odpowiednie aminokwasy.
+- Analiza sekwencji kończy się na sekwencji STOP.
+- Projekt po zatrzymaniu podaje całą listę wykrytych aminokwasów wraz z ich ilością.
 
 Do tego:
 - Student rozumie swój własny kod i jest w stanie go przedstawić prowadzącemu.
-- Projekt znajduje się na Githubie studenta
-- Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych, funkcji i klas wykorzystywanych w projekcie
-- Do tłumaczenia ciągu neuklotydów wykorzystuje się klasę, posiadającą funkcję zwrotu odpowiadającego aminokwasu
+- Projekt znajduje się na Githubie studenta.
+- Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych i funkcji wykorzystywanych w projekcie.
+
 
 
 #### Ocena dobra - 4
 To co na ocenę dostateczną a dodatkowo:
 
-- Kod nie kończy swojej pracy na pierwszej sekwencji STOP, lecz po jej zaistnieniu szuka wszystkich kolejnych ukrytych sekwencji START i STOP i kodowanych między nimi aminokwasów. 
+- Kod wykorzystuje tablice. 
+- Kod nie kończy swojej pracy na pierwszej sekwencji STOP, lecz po jej zaistnieniu szuka wszystkich kolejnych sekwencji START i STOP i kodowanych między nimi aminokwasów. 
 - Kod po zakończeniu analizy sekwencji zwraca informację na temat ilości i długości sekwencji aminokwasów oraz podaje infrmacje o częstości wystąpienia każdego z aminokwasów. 
 
 
 #### Ocena bardzo dobra - 5
-To co na ocenę dostateczną a dodatkowo:
+To co na ocenę dobrą a dodatkowo:
 
-- Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku csv
-- Kod jest odporny na pojedyńcze insercje lub delecje, sprawiające, że sekwencja nie zawiera już nukleotydów podzielnych przez liczbę 3. 
-- W przypadku takiej insercji/delecji informuje o problemie i proponuje oryginalny wygląd sekwencji.
+- Kod wykrywa pierwsze pojawienie sekwencji START w dowolnym pożądku odczytu i zaczyna dalsze pracę od tego odcinka. np. UAA UGC CAC AUG UAG kod zacznie od 3 nukleotydu nie 10.
+- Kod w dużym stopniu korzysta z poprawnie zaimplementowanych wskaźników.
+- Kod wykorzystuje klasę do zamiany kodonów na aminokwasy.
+- Kod wystepuje w formacie pliku exe, który dostaje od użytkownika ścieżkę do pliku csv.
 
 
-#### W celu uzyskania pełnej oceny za swój raport, musi on być wysłany do 17 czerwca 2026. Opóźnienie skutkuje obniżką oceny o pełen stopień. 
+#### W celu uzyskania pełnej oceny za swój raport, musi on być wysłany do 17 czerwca 2026. Opóźnienie skutkuje obniżką oceny o pół stopnia za każdy tydzień opóźnienia. 
 #### Istnienie błędów i/lub elementów dodatkowych może skutkowac podniesieniem lub obniżeniem oceny o pół stopnia. 
+#### W razie problemów proszę o kontakt z prowadzącym! :) - POWODZENIA!
+
