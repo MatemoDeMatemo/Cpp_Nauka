@@ -3,7 +3,7 @@
 Ćwiczenia zaliczane są na podstawie zdania raportu z wykonanego na ćwiczeniach projektu.
 Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać krótki fragment kodu DNA, zamieniać go na mRNA i zwracać listę aminokwasów przez niego kodowanych od sekwencji "START" do "STOP".
 
-Projekt powinien zawierać imię i nazwisko studenta, datę zdania projektu, link do githuba projektu oraz zdjęcie wyniku dla przykładowej sekwencji DNA. 
+Projekt powinien zawierać imię i nazwisko studenta, datę zdania projektu, kod projektu, link do githuba projektu oraz zdjęcie wyniku dla przykładowej sekwencji DNA. 
 Kod będzie testowany na ostatnich zajęciach na dostarczonej przez prowadzącego sekwencji DNA długiej na kilka tysięcy nukleotydów. 
 
 #### Ocena dostateczna - 3
