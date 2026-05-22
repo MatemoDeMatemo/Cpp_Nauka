@@ -6,6 +6,7 @@ Celem tworzonego projektu jest stworzenie narzędzia, które będzie wczytywać 
 Projekt powinien zawierać imię i nazwisko studenta, datę zdania projektu, kod projektu, link do githuba projektu oraz zdjęcie wyniku dla przykładowej sekwencji DNA. 
 Kod będzie testowany na ostatnich zajęciach na dostarczonej przez prowadzącego sekwencji DNA długiej na kilka tysięcy nukleotydów. 
 
+
 #### Ocena dostateczna - 3
 Wymagania:
 
@@ -20,7 +21,6 @@ Do tego:
 - Student rozumie swój własny kod i jest w stanie go przedstawić prowadzącemu.
 - Projekt znajduje się na Githubie studenta.
 - Projekt wykorzystuje pliki typu .h i .c do deklarowania stałych i funkcji wykorzystywanych w projekcie.
-
 
 
 #### Ocena dobra - 4
